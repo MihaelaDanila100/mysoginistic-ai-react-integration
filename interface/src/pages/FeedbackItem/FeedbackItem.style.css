@@ -1,0 +1,46 @@
+.profile-post {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  max-width: 600px; 
+}
+  
+.post-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+  
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+  
+.profile-username {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(71, 71, 71);
+}
+  
+.profile-timestamp {
+  font-size: 10px;
+  color: rgb(185, 185, 185);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.post-image-container {
+  margin: 10px;
+}
